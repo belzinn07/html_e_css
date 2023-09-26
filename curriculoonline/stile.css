@@ -1,0 +1,61 @@
+body{
+    background: #636262;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+p{
+     text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.geral{
+    width: 900px;
+    margin:0 auto;
+
+
+}
+.box1{
+    text-align: center;
+
+}
+.video{
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+}
+.foto{
+    width: 250px;
+    margin: 30px 30px 0 30px ;
+    box-shadow: 0 0  0 10px blue;
+    border: 4px;
+    border-radius: 75%;
+
+
+}
+.midias_sociais{
+    width: 30px;
+    margin:5px;
+
+}
+.box1 a{
+    text-decoration: none;
+}
+.midias_sociais img:hover{
+    transform:scale(1.2);
+}
+@keyframes animacao{
+    0%{background-color: blueviolet;}
+    25%{background-color: blue;}
+    50%{background-color: aqua;}
+}
+.rodape{
+    width: 900px;
+    color: antiquewhite;
+    animation-name: animacao;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    box-shadow: 10px 10px 10px #333 ;
+    border: 3px solid #333;
+    margin: 10px 10px 0 0 ;
+}
