@@ -31,4 +31,84 @@ a:hover{/*hover=chama a animação*/
     transition: 0.3s all;/*transition=tipo animação, all=suaviza o efeito do menu quando o mouse é passado por cima*/
 }
 
+#inscreva-se-btn{/* btn: adiciona o inscreva-se como botão*/
+    border: 2px solid rgb(132,  14, 201);
+    padding: 10px;
+    border-radius: 15px;
 
+}
+
+#inscreva-se-btn:hover{
+    background-color: rgb(132,  14, 201);
+    color: white;
+
+}
+
+h1{
+    font-weight: 200px;
+
+}
+
+main{
+    display: flex;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span{
+   color: rgb(132,  14, 201);   
+}
+
+p{ 
+    line-height: 20px;/*muda o espaço entre a letras*/
+    max-width: 500px;/*largura máxima do texto, cria uma caixa para o texto*/
+    font-family: fantasy;
+}
+
+img{
+    width: 580px;
+
+}
+
+form{
+    display: flex;/* lado a lado*/
+    flex-direction: column;/*elementos abaixo*/
+    width: 70%;
+}
+
+form[type="submit"]{/*está formatando APENAS O BOTÃO DE ENVIAR*/
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132,  14, 201);
+    color:white;
+    font-weight: bold;
+
+}
+
+form[type="submit"]:hover{
+    cursor:pointer;/*mudar o mouse*/
+    
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;/**/
+    font-size: 15px;
+    padding: 15px;
+ 
+}
+
+article img{
+    display: flex;
+}
+
+h2{
+    color: white;
+}
