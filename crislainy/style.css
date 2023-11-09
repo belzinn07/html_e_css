@@ -3,18 +3,18 @@ body{
     color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     max-width: 1200px ;/*largura máxima do site*/
-    padding: 15px;
+    padding: 15px;/*espaçamento do conteudo até aborda*/
 }
 
 header{
-    display: flex;
-    justify-content: space-between;/*ele da um espaçamento no elemento a ser estilixado*/
-    align-items: center;
+    display: flex;/*deixa os elementos lado a lado */
+    justify-content: space-between;/*ele da um espaçamento no elemento a ser estilizado*/
+    align-items: center; /*centraliza os itens*/
 }
 
 .title{
     line-height: 10px;/*espaçamento entre a linha*/
-    flex-direction: column;/*da um espaço para trabakhar com o menu*/
+    flex-direction: column;/*dar um espaço para trabalhar com o menu*/
 }
 
 li{
@@ -26,10 +26,9 @@ a{
     color: white;
 }
 
-a:hover{
+a:hover{/*hover=chama a animação*/
     color: rgb(132,  14, 201);
-    transition: 0.3s all;/*suaviza o efeito do menu quando o mause é passado por cima*/
+    transition: 0.3s all;/*transition=tipo animação, all=suaviza o efeito do menu quando o mouse é passado por cima*/
 }
 
 
-kf
