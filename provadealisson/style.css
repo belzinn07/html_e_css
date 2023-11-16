@@ -1,0 +1,66 @@
+*{
+   margin: 0; 
+   padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(178, 147, 107);
+}
+
+header h1{
+    font-size: 70px;
+    color: black;
+    justify-content: space-between;
+    padding: 20px 0 0 20px;
+    letter-spacing: -3px;
+}
+
+header{
+    margin: 20px 0 20px 0;
+    display: flex;
+    background-color: rgb(144, 116, 81);
+}
+
+#menu{
+    display: flex;
+    
+}
+
+li{
+    padding-left: 20px;
+    list-style: none;
+}
+
+ul{
+    padding: 50px;
+    padding-left:600px ;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+  
+}
+
+#aqui{
+    border: 2px solid yellow;
+    padding: 10px;
+    border-radius: 15px;
+     
+}
+
+#aqui :hover{
+    background-color: white;
+    color: white;
+
+}
+
+a:hover{/*hover=chama a animação*/
+    color:yellow;
+    transition: 0.3s all;
+}
