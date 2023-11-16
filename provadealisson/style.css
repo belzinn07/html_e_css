@@ -48,7 +48,7 @@ ul a{
 }
 
 #aqui{
-    border: 2px solid yellow;
+    border: 2px solid white;
     padding: 10px;
     border-radius: 15px;
      
@@ -64,3 +64,80 @@ a:hover{/*hover=chama a animação*/
     color:yellow;
     transition: 0.3s all;
 }
+
+header h1{
+    color: white;
+}
+span{
+    color: rgb(12, 10, 8);
+   letter-spacing: -2px;
+   font-size: 40px;
+ }
+
+ main{
+    display: flex;
+    align-items: center;
+}
+
+main img{
+  padding: 0 70px 0 ;
+  width: 900px;
+  height: 900px;
+}
+
+.texto{ text-align:center ;
+}
+
+.texto h2{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto p{
+    font-size:25px ;
+    padding-top:20px ;   
+}
+ button{
+    margin-top:30px ;
+    border: 2px solid rgb(145, 99, 38);
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(145, 99, 38);
+ }
+ 
+
+ button a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+ }
+
+ footer{
+    background-color: rgb(144, 116, 81);
+    margin-top: 80px;
+ }
+ footer h1{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ footer li img{
+    display: flex;
+    max-width: 50px;
+    text-align: center;
+   
+ }
+
+ #img{
+    display: inline-flex;
+   
+ }
+    
+
+
+
+
+
