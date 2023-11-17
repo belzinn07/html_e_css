@@ -68,8 +68,9 @@ a:hover{/*hover=chama a animação*/
 header h1{
     color: white;
 }
+
 span{
-    color: rgb(12, 10, 8);
+   color: rgb(12, 10, 8);
    letter-spacing: -2px;
    font-size: 40px;
  }
@@ -85,7 +86,9 @@ main img{
   height: 900px;
 }
 
-.texto{ text-align:center ;
+.texto{ 
+    text-align:center ;
+    font-family: cursive;
 }
 
 .texto h2{
@@ -117,17 +120,34 @@ main img{
     background-color: rgb(144, 116, 81);
     margin-top: 80px;
  }
+
  footer h1{
+    font-size: 50px;
+    color: white;
+    justify-content: space-between;
+    padding: 40px 0 50px 70px;
+    letter-spacing: -3px;
+ }  
+
+ footer span{
+   color: rgb(12, 10, 8);
+   letter-spacing: -2px;
+   font-size: 25px;
+}
+
+ footer h2{
     text-align: center;
     color: white;
     padding-top: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
+    padding-left: 50px;
  }
 
  footer li img{
     display: flex;
     width: 50px;
     text-align: center;
+    padding-left: 50px;
    
  }
 
@@ -136,10 +156,24 @@ main img{
    
  }
 
- .insta{
-    width: 80px;
- }
+ .video{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(167, 132, 88);
+    display: flex;
     
+    justify-content: space-evenly;
+  
+ }
+
+.dica{
+    text-decoration: underline;
+    color: white;
+    font-family: cursive;
+    margin-top: 140px;
+    background-color: rgb(167, 132, 88);
+    text-align: center; 
+}
 
 
 
